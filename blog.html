@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Jammu website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt="college logo here"></a>
+            <h3>IIT JAMMU</h3>
+
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our online program of 2021</h1>
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>our institue certificates</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga modi accusamus dignissimos. Ea rerum
+                    molestias neque, doloribus commodi dolorum perferendis repellendus eius incidunt quibusdam beatae
+                    aliquam eaque voluptas repellat dolorem nam praesentium expedita recusandae hic delectus deserunt.
+                    Animi, officia excepturi!</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur sapiente eaque eum velit! Porro
+                    perspiciatis in vitae praesentium dolorum a nesciunt repudiandae optio dicta quod error dolore
+                    deleniti, consectetur dolores officia hic atque ab!</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus reiciendis fugiat quae ducimus iure
+                    animi, tempora officia? Quisquam aperiam, tenetur inventore consectetur modi dolorum esse incidunt
+                    omnis doloremque magnam ullam reiciendis nobis odit illo et eius praesentium, temporibus fugit ut
+                    sit voluptates numquam explicabo. Magni omnis inventore dolorem nobis amet?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>cloud engineering</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Networking study</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Basic of OS</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>google security</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>Civil Engineering</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>chemistry</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Chemical Engineering</span>
+                    <span>67</span>
+                </div>
+                <div>
+                    <span>Electrical Engineering</span>
+                    <span>98</span>
+                </div>
+                <div>
+                    <span>Humanities and SS</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>mathematics</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Mechanical Engineering</span>
+                    <span>46</span>
+                </div>
+                <div>
+                    <span>Material Engineering</span>
+                    <span>59</span>
+                </div>
+                <div>
+                    <span>physics</span>
+                    <span>78</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>In 2018, IIT Jammu shifted the primary operations to the Main Campus in Jagti, Nagrota. The State Government,
+            Jammu and Kashmir has provided land for the establishment<br> of a permanent campus of the Indian Institute of
+            Technology in Jammu, which consists of 400 acres. Currently the Phase 1 A of the main campus,<br> spread across
+            25 acres, is operational. Phase 1 B and 1 C are undergoing construction.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy tutorials</p>
+    </section>
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

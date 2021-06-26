@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Jammu website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt="college logo here"></a>
+            <h3>IIT JAMMU</h3>
+
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Indian Institute Of Technology JK</h1>
+                <p>Jammu is the largest city in the Jammu Division and the winter capital of state of Jammu and Kashmir.
+                    It is situated on the banks of Tawi river. Jammu is located at 32.73°N 74.87°E.
+                    It has an average elevation of 327 m (1,073 ft). Jammu city lies at uneven ridges of low heights at
+                    the Shivalik hills. It is surrounded by Shivalik range to the north, east and southeast while the
+                    Trikuta Range surrounds it in the north-west. It is approximately 600 kilometres (370 mi) from the
+                    national capital, New Delhi.</p>
+                <a href="" class="btn red-btn">Explore more</a>
+
+            </div>
+            <div class="about-col">
+                <img src="about3.jpeg">
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>In 2018, IIT Jammu shifted the primary operations to the Main Campus in Jagti, Nagrota. The State Government,
+            Jammu and Kashmir has provided land for the establishment<br> of a permanent campus of the Indian Institute of
+            Technology in Jammu, which consists of 400 acres. Currently the Phase 1 A of the main campus,<br> spread across
+            25 acres, is operational. Phase 1 B and 1 C are undergoing construction.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy tutorials</p>
+    </section>
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
