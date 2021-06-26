@@ -133,6 +133,7 @@ nav .fa{
     padding-top: 100px;
 }
 .course h1{
+    border: 4px solid #f44336;
     font-size: 36px;
     font-weight: 600;
 }
@@ -170,6 +171,11 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+.campus h1{
+    border: 4px solid #f44336;
+    font-size: 36px;
+    font-weight: 600;
 }
 .campus-col{
     flex-basis: 32%;
@@ -217,6 +223,11 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
+.facilities h1{
+    border: 4px solid #f44336;
+    font-size: 36px;
+    font-weight: 600;
+}
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
@@ -243,6 +254,11 @@ h3{
     padding-top: 100px;
     text-align: center;
 
+}
+.testimonials h1{
+    border: 4px solid #f44336;
+    font-size: 36px;
+    font-weight: 600;
 }
 .testimonial-col{
     flex-basis: 44%;
@@ -305,6 +321,7 @@ h3{
 
 }
 .footer h4{
+    border: 2px solid #f44336;
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
