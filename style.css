@@ -22,6 +22,10 @@ nav{
     color: #fff;
     margin: 9px 16px;
 }
+.sub-header nav h3{
+    color: #fff;
+    margin: 9px 16px;
+}
 nav img{
     width: 70px;
     border-radius: 50%;
